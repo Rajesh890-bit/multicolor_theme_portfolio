@@ -1,0 +1,109 @@
+
+.skillpagebackground{
+ 
+display: block;
+margin: 5rem 5rem;
+height: 100vh;
+width: 100%;
+background-image: url("../Assets/pexels-lukas-574073.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  /* background-color: #4158d0; */
+  /* background-image: url("../../public/pexels-lukas-574073.jpg") */
+}
+
+
+
+#animate4{
+
+    animation: rotateit 7s linear infinite;
+
+
+}
+
+
+#animate6{
+
+    animation: rotateit 7s linear infinite;
+
+}
+
+
+
+#animate0{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate1{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate2{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate3{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate5{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+#animate7{
+
+    animation : float 2s linear infinite alternate;
+
+}
+
+
+#animate8{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+#animate9{
+
+    animation : float 4s linear infinite alternate;
+
+}
+
+
+
+@keyframes rotateit {
+
+    to {
+
+
+        transform: rotate(360deg);
+    }
+
+
+
+
+}
+
+
+@keyframes float {
+
+    to {
+
+        transform: translate(20%);
+    }
+
+
+}
